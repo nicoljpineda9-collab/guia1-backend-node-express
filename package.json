@@ -1,0 +1,23 @@
+{
+  "name": "guia1-backend-node-express",
+  "version": "1.0.0",
+  "description": "Proyecto backend con Node.js y Express usado como evidencia de la guia especifica de Git y control de versiones.",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "git",
+    "github",
+    "backend"
+  ],
+  "author": "Nombre del estudiante",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

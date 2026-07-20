@@ -1,0 +1,25 @@
+# Dependencias de Node.js (se reconstruyen con: npm install)
+node_modules/
+
+# Variables de entorno y credenciales (NUNCA deben subirse)
+.env
+.env.local
+.env.*.local
+
+# Logs generados por npm o por la aplicación
+logs/
+*.log
+npm-debug.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración local del editor
+.vscode/
+.idea/
+
+# Carpetas de compilación o cobertura de pruebas
+dist/
+build/
+coverage/
