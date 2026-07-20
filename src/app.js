@@ -28,6 +28,7 @@ app.get("/", (req, res) => {
 app.get("/saludo", (req, res) => {
   res.json({
     mensaje: "Bienvenido al backend con Node.js y Express",
+    estudiante: "Nicol Pineda",
   });
 });
 
